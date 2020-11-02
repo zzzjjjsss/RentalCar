@@ -1,3 +1,3 @@
 # RentalCar
-##Database Design
-##Class Design
+## Database Design
+## Class Design
