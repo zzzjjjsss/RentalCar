@@ -69,6 +69,7 @@ public class RentalCarService {
             result.setSuccess(false);
             return result;
         }
+        cacheService.removeCache(rentalRandomCode);
         CarRentalRecord rentalRecord = new CarRentalRecord();
         rentalRecord.setCar(car);
         rentalRecord.setStartRentalDate(startRentalDate);

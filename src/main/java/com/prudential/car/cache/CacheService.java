@@ -31,4 +31,7 @@ public class CacheService {
     public void addToCache(String rentalCode,Date createTime){
        rentalCodeCache.put(rentalCode,createTime);
     }
+    public void removeCache(String rentalCode){
+        rentalCodeCache.remove(rentalCode);
+    }
 }
